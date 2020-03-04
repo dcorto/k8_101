@@ -27,12 +27,19 @@ c) Ingress
 
 # 2 - Deploy custom Docker image
 
-Build and deploy a docker image from Dockerhub 
+Build and deploy a docker image from Dockerhub
 
 # 3 - Real Service example
 
 Deploy a Gotify Server on port 8080
 
+# 4 - Jobs and Cronjobs
+
+a) Jobs:
+  - https://kubernetes.io/docs/concepts/workloads/controllers/jobs-run-to-completion/
+
+b) Cronjobs:
+  - https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/
 
 # TODO
 https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale-walkthrough/
