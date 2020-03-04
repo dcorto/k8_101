@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: php-service
+  name: gotify-server-service
 spec:
   type: ClusterIP
   ports:
     - name: tcp
-      port: 80
+      port: 8080
       protocol: TCP
       targetPort: 80
   selector:
-    app: php
+    app: gotify-server

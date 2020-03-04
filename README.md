@@ -25,12 +25,14 @@ b) Services
 c) Ingress
   - https://kubernetes.io/docs/concepts/services-networking/ingress/
 
-# 2 - Real Services
+# 2 - Deploy custom Docker image
+
+Build and deploy a docker image from Dockerhub 
+
+# 3 - Real Service example
 
 Deploy a Gotify Server on port 8080
 
-# 3 -
 
-
-
+# TODO
 https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale-walkthrough/

@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: php-deployment
+  name: gotify-server-deployment
   labels:
-    app: php
+    app: gotify-server
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
-      app: php
+      app: gotify-server
   template:
     metadata:
       labels:
-        app: php
+        app: gotify-server
     spec:
       containers:
-        - name: php
-          image: thedavis/kubesail_2:latest
+        - name: gotify-server
+          image: gotify/server:latest
           ports:
             - containerPort: 80

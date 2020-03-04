@@ -1,12 +1,12 @@
 apiVersion: networking.k8s.io/v1beta1
 kind: Ingress
 metadata:
-  name: php-ingress
+  name: gotify-server-ingress
 spec:
   rules:
   - host: dcorto.usw1.kubesail.io
     http:
       paths:
         - backend:
-            serviceName: php-service
-            servicePort: 80
+            serviceName: gotify-server-service
+            servicePort: 8080
