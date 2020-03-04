@@ -41,5 +41,7 @@ a) Jobs:
 b) Cronjobs:
   - https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/
 
+# 5 - Readiness and Liveness probes
+
 # TODO
 https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale-walkthrough/
