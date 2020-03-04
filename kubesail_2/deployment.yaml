@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gotify-server-deployment
+  labels:
+    app: gotify-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: gotify-server
+  template:
+    metadata:
+      labels:
+        app: gotify-server
+    spec:
+      containers:
+        - name: gotify-server
+          image: gotify/server:latest
+          ports:
+            - containerPort: 80
