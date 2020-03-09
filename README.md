@@ -42,6 +42,10 @@ b) Cronjobs:
   - https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/
 
 # 5 - Readiness and Liveness probes
+  - https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/
+  - https://www.returngis.net/2020/02/pruebas-de-vida-de-nuestros-contenedores-en-kubernetes/
+  - https://www.returngis.net/2020/02/pruebas-de-disponibilidad-para-tus-contenedores-en-kubernetes/
+  -
 
 # TODO
 https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale-walkthrough/
